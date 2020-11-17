@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Results{
+public class Results {
 
     private String section;
     private String subsection;
@@ -20,11 +20,11 @@ public class Results{
     private String published_date;
     private String material_type_facet;
     private String kicker;
-    private List<String> des_facet = new ArrayList<String>();
-    private List<String> org_facet = new ArrayList<String>();
-    private List<String> per_facet = new ArrayList<String>();
-    private List<String> geo_facet = new ArrayList<String>();
-    private List<Media> media = new ArrayList<Media>();
+    private List<String> des_facet;
+    private List<String> org_facet;
+    private List<String> per_facet;
+    private List<String> geo_facet;
+    private List<Media> media;
     private String short_url;
 
     public Results(String section, String subsection, String title, String url, String uri, String byline, String item_type, String updated_date, String created_date, String published_date, String material_type_facet, String kicker, List<String> des_facet, List<String> org_facet, List<String> per_facet, List<String> geo_facet, List<Media> media, String short_url) {

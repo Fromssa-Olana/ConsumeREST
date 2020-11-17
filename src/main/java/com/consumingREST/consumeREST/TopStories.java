@@ -12,7 +12,7 @@ public class TopStories {
     private String section;
     private String last_updated;
     private int num_results;
-    private ArrayList<Results> results = new ArrayList<Results>();
+    private ArrayList<Results> results;
 
 
     public TopStories(String status, String copyright, String section, String last_updated, int num_results, ArrayList<Results> results) {
